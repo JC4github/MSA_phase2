@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>web_api</name>
+    </assembly>
+    <members>
+        <member name="M:web_api.Controllers.JikanController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary />
+        </member>
+        <member name="M:web_api.Controllers.JikanController.GetYourAnime(System.String)">
+            <summary>
+            Find an anime from jikan api and add it to your list of animes
+            </summary>
+            <returns>An list of JSON object representing the list of anime</returns>
+        </member>
+        <member name="M:web_api.Controllers.JikanController.GetAnimeList">
+            <summary>
+            Get your list of animes
+            </summary>
+            <returns>A JSON object representing your list of animes</returns>
+        </member>
+        <member name="M:web_api.Controllers.JikanController.UpdateAnimeList(web_api.Anime)">
+            <summary>
+            Updates infomation on a specific anime in your list 
+            </summary>
+            <returns>A JSON object representing your list of animes</returns>
+        </member>
+        <member name="M:web_api.Controllers.JikanController.DeleteAnime(System.String)">
+            <summary>
+            Deletes the specified anime from the list
+            </summary>
+            <returns>A JSON object representing your list of animes</returns>
+        </member>
+    </members>
+</doc>
